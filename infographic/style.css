@@ -1,0 +1,30 @@
+.vertical-center{
+    margin:0;
+    position:absolute;
+    top:10%;
+    left:10%;
+    text-emphasis-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 20px;
+    width: 307px;
+    height: 612px;
+    line-height: 200%;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bolder;
+    padding: 20px;
+    width: 3.2in;
+    margin: 20px;
+    border-radius: 10px;
+}
+.inline {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    font-size: 250%;
+} 
+
