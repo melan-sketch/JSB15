@@ -1,0 +1,129 @@
+.container{
+  display: flex;
+  align-content: flex-start;
+  margin: 0.5in;
+  flex-direction: row;
+
+}
+.container-left{
+  margin:6px;
+}
+.container-right{
+  margin: 6px;
+}
+.item{
+  line-height: 10px;
+  margin: 10px;
+}
+.poly{
+  margin-left: 6px;
+}
+.item-1 {
+  background-color:#ef7f7f;
+  height: 80px;
+  width: 100px; 
+  margin-bottom: 20px;
+}
+.stripe-4,
+.stripe-1, 
+.stripe-2,
+.stripe-3{
+  background: linear-gradient(to top, #add9e6 50%, #038a88 50%);
+  height: 37.5px;
+  width: 100px;
+  margin-left: 10px;
+}
+.item-11{
+  background-color: rgb(211, 211, 211);
+  height: 150px;
+  width: 100px;
+}
+.item-3 {
+  background-color: rgb(211, 211, 211);
+  height: 150px;
+  width: 100px;
+  margin-top: 30px;
+}
+.poly-1{
+  background-color: #9eff99;
+  height: 200px;
+  width: 600px;
+  margin-top: 10px;
+}
+.poly-2{
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 600px;
+}
+span.b {
+  background-color: #9eff99;
+  display: inline-flex;
+  height: 30px;
+  width: 350px;
+}
+.poly-3{
+  background-color:black;
+  height: 30px;
+  width: 600px;
+}
+span.c {
+  background-color: #9eff99;
+  display: inline-flex;
+  height: 30px;
+  width: 250px;
+}
+.poly-4{
+  background-color: #9eff99;
+  height: 60px;
+  width: 600px;
+}
+.poly-5{
+  background-color: #9eff99;
+  height: 60px;
+  width: 600px;
+}
+span.d,
+span.e,
+span.f,
+span.g {
+  background-color:green;
+  display: inline-flex;
+  height: 60px;
+  width: 147.5px;
+  margin-right: 2.5px;
+}
+.item-7 {
+  background-color:rgb(218, 108, 126);
+  height: 30px;
+  width: 600px;
+}
+span.a {
+  background-color:rgb(148, 226, 226);
+  display: inline-flex;
+  height: 30px;
+  width: 300px;
+}
+.mycolumn{
+  background-color:rgb(148, 197, 101);
+  height: 100px;
+  width: 130px;
+  }
+.mycolumn-1{
+  background-color:rgb(253, 153, 116);
+  height: 150px;
+  width: 130px;
+  }
+.newspaper {
+    column-count: 4;
+    margin:6px;
+  }
+.newspaper-1 {
+    column-count: 4;
+    margin: 6px;
+  }
+.container-bottom{
+  background-color: rgb(211, 211, 211);
+  height: 60px;
+  width: 750px;
+  margin: 0.5in;
+}
