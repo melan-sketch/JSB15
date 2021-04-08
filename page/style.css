@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+    width:967px;
+    background-color: #4e4e4e;
+    font-family: sans-serif;
+    
+    
+}
+.container{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+}
+.container-split{
+    background:linear-gradient(90deg, #cfebf7 50%, #ffffff 50%);
+    height: 100%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-abtme{
+    display: flex;
+    font-size: 90%;
+}
+
+.container-left,
+.container-right{
+    width:50% ;
+}
+.container-edu{
+    display:flex;
+    align-content:flex-start;
+}
+.container-left-1{
+    width: 30%;
+    margin-left: 0.75in;
+}
+.container-right-1{
+    width: 50%;
+}
+.container-Activi{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-ttmb{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-right-2{
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 20px 20px 30px 20px;
+}
+.container-left-2{
+    width: 50%;
+}
+.container-img img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.container-left img {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+button.b img{
+    width: 70px;
+    height: 70px;
+}   
+.container-id{
+    display:flex;
+    margin-top: 50px;
+    margin-right:0.75in;
+}
+button.a{
+    width: 4cm;
+    height:1cm;
+    border-radius: 20px;
+    background-color: #6693a3;
+    font-size: x-small;
+    font-weight: bolder;
+    border-color:transparent;
+    color: white;
+}
+button.b{
+    width: 4cm;
+    height: 4cm;
+    border-color:transparent;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px;
+    color: whitesmoke;
+    margin: 5px;
+}
+.container-right-2 :placeholder-shown{
+    height:30px;
+    width: 200px;
+}
+.container-bottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.item-3,
+.item-4,
+.item-5{
+    text-align: left; 
+    line-height: 0.75cm;
+}
+
+.container-i {
+    display: flex;
+    letter-spacing: 0.25in;
+}
