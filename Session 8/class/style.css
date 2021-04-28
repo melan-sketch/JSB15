@@ -1,0 +1,8 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    font-family:monospace;
+    font-weight: lighter;
+}

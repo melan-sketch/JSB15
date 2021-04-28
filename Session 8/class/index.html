@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi</title>
+    <script defer src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="change.html">
+</head>
+
+<body>
+    <H1>Login</H1>
+    <div id="error"></div>
+    <form id="form" onsubmit="return checkPassword()" action="/class/change.html" method="POST">
+        <div>
+            <label for="name">Username:</label><br>
+            <input id="idname" name="idname" type="text" required><br>
+        </div>
+        <div>
+            <label for="password">Password:</label><br>
+            <input id="password" name="password" type="password" required><br><br>
+        </div>
+        <button type="submit" >Submit</button>
+    </form>
+</body>
+
+</html>
