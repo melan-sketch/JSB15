@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="code.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <div>
+        <button class="a">Sign In using Open ID Connect</button>
+    </div>
+    <form id="form" onsubmit="return checkSignup()" action="/new.html" method="GET">
+        <div>
+            <label for="name">Email address</label><br>
+            <input id="idname" name="idname" type="text" required><br>
+        </div>
+        <div>
+            <label for="password">Password</label> <span style="color:#0665d7; font-size: smaller;">Forgot
+                password?</span><br>
+            <input id="password" name="password" type="password" required><br><br>
+        </div>
+        <button class="b" type="submit">Sign In</button>
+    </form>
+</body>
+
+</html>
