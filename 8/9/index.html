@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="code.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form>
+        <form id="form" onsubmit="return calculateBMI()" >
+            <div>
+                <label for="height">height (m)</label><br>
+                <input id="height" name="height" type="text" required><br>
+            </div>
+            <div>
+                <label for="weight">weight</label><br>
+                <input id="weight" name="weight" type="weight" required><br><br>
+            </div>
+            <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
