@@ -1,0 +1,34 @@
+body{
+}
+.main{
+    width: 220px;
+    display: grid;
+    background-color: black;
+    padding: 10px;
+}
+.textview{
+    padding: 20px;
+    width: 175px;
+    border-color: transparent;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}
+.button{
+    width: 50px;
+    margin-top:  0.5px;
+    font-size: large;
+    border-radius: 50%;
+    padding: 12.5px;
+    border-color: transparent;
+    color: white;
+}
+.button-1{
+    color: black;
+}
+.button-top{
+    background-color: orange;
+}
+.button-2{
+    background-color: gray;
+}
